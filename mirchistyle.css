@@ -248,7 +248,14 @@ h3 {
 }
 
 .headings {
+<<<<<<< HEAD
     display: inline-flex;
     margin-left: 150px;
+=======
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    margin: 0 auto; /* Centers the entire element horizontally in its parent */
+>>>>>>> 3d76adfe20c07bd6a555f612273e89df2c7bc989
     padding: 30px;
 }
