@@ -198,6 +198,28 @@ html {
     background: linear-gradient(135deg, #F4F2F3, #BFC6D0);
 }
 
+.return-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    background-color: #f5f5f5; /* Light color */
+    color: #333; /* Dark text */
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease; /* Add smooth scaling effect */
+    z-index: 1000;
+}
+
+.return-button:hover {
+    background-color: #4d4c4c; /* Change background on hover */
+    color: white; /* Change text to white on hover */
+    transform: scale(1.1); /* Zoom in a little bit on hover */
+}
+
 /* h1 {
     font-size: 80px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
